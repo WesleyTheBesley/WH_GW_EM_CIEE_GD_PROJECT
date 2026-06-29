@@ -1,0 +1,4 @@
+repository "EWW_Fishing_Prototype/EWW_Fishing_Prototype@20066472811865@cloud"
+  path "/"
+    br "/main"
+    co "/main"
