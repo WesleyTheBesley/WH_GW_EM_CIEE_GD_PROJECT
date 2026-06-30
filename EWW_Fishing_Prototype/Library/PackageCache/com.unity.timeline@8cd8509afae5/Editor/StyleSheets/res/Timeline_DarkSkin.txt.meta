@@ -1,8 +1,21 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:EWW_Fishing_Prototype/Library/PackageCache/com.unity.timeline@8cd8509afae5/Editor/StyleSheets/res/Timeline_DarkSkin.txt.meta
 guid: 54905d77593e9eb44a7c25d704bb4163
 timeCreated: 1471357208
 licenseType: Pro
+========
+guid: 8f05276190cf498a8153f6cbe761d4e6
+timeCreated: 1480316860
+licenseType: Store
+>>>>>>>> Stashed changes:EWW_Fishing_Prototype/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
 TextScriptImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271239
+  packageName: 'Unity Learn | 2D Adventure Game: Robot Repair'
+  packageVersion: 2.0.0
+  assetPath: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  uploadId: 832758
