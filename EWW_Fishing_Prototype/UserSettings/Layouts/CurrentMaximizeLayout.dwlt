@@ -26,7 +26,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 10607
+  controlID: 113
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 10646
+  controlID: 24
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -177,8 +177,8 @@ MonoBehaviour:
     y: 0
     width: 723.2
     height: 370.4
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -780,9 +780,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 193.36528, y: 196.30432, z: -0.55006844}
+    m_Target: {x: 207.2288, y: 194.76878, z: -0.2503689}
     speed: 2
-    m_Value: {x: 193.36528, y: 196.30432, z: -0.55006844}
+    m_Value: {x: 207.2288, y: 194.76878, z: -0.2503689}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -832,9 +832,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 259.95184
+    m_Target: 229.98238
     speed: 2
-    m_Value: 259.95184
+    m_Value: 229.98238
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -887,8 +887,8 @@ MonoBehaviour:
     y: 370.4
     width: 723.2
     height: 346.4
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -913,8 +913,8 @@ MonoBehaviour:
     y: 0
     width: 264
     height: 716.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -966,21 +966,10 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -32480
-      - m_Data: -32282
-      - m_Data: -27932
-      - m_Data: -23940
-      - m_Data: -23776
-      - m_Data: -13896
-      - m_Data: -13676
-      - m_Data: -12152
-      - m_Data: -8398
-      - m_Data: -3588
-      - m_Data: -2134
+      - m_Data: -3444
       - m_Data: -1400
-      - m_Data: 60562
-      - m_Data: 60614
-      - m_Data: 62234
+      - m_Data: 55608
+      - m_Data: 55664
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1025,8 +1014,8 @@ MonoBehaviour:
     y: 0
     width: 203.99994
     height: 716.8
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 276}
+  m_MaxSize: {x: 10002, y: 10026}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -1081,8 +1070,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Scenes
+    m_Folders: []
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1104,27 +1092,27 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 53058
-    - m_Data: 53332
-    - m_Data: 53334
-    - m_Data: 53338
-    - m_Data: 53340
-    - m_Data: 53342
-    - m_Data: 53344
-    - m_Data: 53346
-    - m_Data: 53348
-    - m_Data: 53350
-    - m_Data: 53352
-    - m_Data: 53354
-    - m_Data: 53356
-    - m_Data: 53358
-    - m_Data: 53360
-    - m_Data: 53362
-    - m_Data: 53364
-    - m_Data: 53366
-    - m_Data: 53368
-    - m_Data: 53370
-    - m_Data: 53372
+    - m_Data: 55078
+    - m_Data: 55080
+    - m_Data: 55082
+    - m_Data: 55084
+    - m_Data: 55086
+    - m_Data: 55088
+    - m_Data: 55090
+    - m_Data: 55092
+    - m_Data: 55094
+    - m_Data: 55096
+    - m_Data: 55098
+    - m_Data: 55100
+    - m_Data: 55102
+    - m_Data: 55104
+    - m_Data: 55106
+    - m_Data: 55108
+    - m_Data: 55110
+    - m_Data: 55112
+    - m_Data: 55114
+    - m_Data: 55116
+    - m_Data: 55118
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1152,37 +1140,36 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs:
-    - m_Data: 69302
+    m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 53058
-    - m_Data: 53332
-    - m_Data: 53334
-    - m_Data: 53338
-    - m_Data: 53340
-    - m_Data: 53342
-    - m_Data: 53344
-    - m_Data: 53346
-    - m_Data: 53348
-    - m_Data: 53350
-    - m_Data: 53352
-    - m_Data: 53354
-    - m_Data: 53356
-    - m_Data: 53358
-    - m_Data: 53360
-    - m_Data: 53362
-    - m_Data: 53364
-    - m_Data: 53366
-    - m_Data: 53368
-    - m_Data: 53370
-    - m_Data: 53372
+    - m_Data: 55078
+    - m_Data: 55080
+    - m_Data: 55082
+    - m_Data: 55084
+    - m_Data: 55086
+    - m_Data: 55088
+    - m_Data: 55090
+    - m_Data: 55092
+    - m_Data: 55094
+    - m_Data: 55096
+    - m_Data: 55098
+    - m_Data: 55100
+    - m_Data: 55102
+    - m_Data: 55104
+    - m_Data: 55106
+    - m_Data: 55108
+    - m_Data: 55110
+    - m_Data: 55112
+    - m_Data: 55114
+    - m_Data: 55116
+    - m_Data: 55118
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: SHITPOSTROOM
-      m_OriginalName: SHITPOSTROOM
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -1190,10 +1177,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 53554
+        m_Data: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 9}
@@ -1205,9 +1192,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: 69302
-    m_LastClickedInstanceID: 69302
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -1310,7 +1296,7 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 69302
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
