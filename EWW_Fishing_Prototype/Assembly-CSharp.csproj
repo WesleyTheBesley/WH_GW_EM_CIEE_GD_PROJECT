@@ -55,6 +55,7 @@
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\PlayerController.cs" />
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\Projectile.cs" />
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\HealthCollectible.cs" />
+    <Compile Include="Assets\MenuController.cs" />
     <Compile Include="Assets\KonamiCode.cs" />
     <Compile Include="Assets\SceneChanger.cs" />
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\GameManager.cs" />
