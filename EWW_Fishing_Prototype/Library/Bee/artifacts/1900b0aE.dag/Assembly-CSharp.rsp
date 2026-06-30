@@ -485,6 +485,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.18f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.18f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.18f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/AutoSlideshow.cs"
+"Assets/KonamiCode.cs"
 "Assets/SceneChanger.cs"
 "Assets/_2DAdventureGame/Tutorial_Demo/Demo_Scripts/CameraConfinerLayerSetter.cs"
 "Assets/_2DAdventureGame/Tutorial_Demo/Demo_Scripts/DamageZone.cs"

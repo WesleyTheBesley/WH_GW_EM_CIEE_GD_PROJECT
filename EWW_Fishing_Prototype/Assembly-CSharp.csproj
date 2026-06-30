@@ -55,11 +55,13 @@
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\PlayerController.cs" />
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\Projectile.cs" />
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\HealthCollectible.cs" />
+    <Compile Include="Assets\KonamiCode.cs" />
     <Compile Include="Assets\SceneChanger.cs" />
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\GameManager.cs" />
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\StartScreen.cs" />
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\UIHandler.cs" />
     <Compile Include="Assets\_2DAdventureGame\Tutorial_Demo\Demo_Scripts\CameraConfinerLayerSetter.cs" />
+    <Compile Include="Assets\AutoSlideshow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
