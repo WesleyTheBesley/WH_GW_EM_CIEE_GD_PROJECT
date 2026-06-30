@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Library\\PackageCache\\com.unity.2d.tooling@127d960d4dc1\\Editor\\Insider\\SpriteAtlas\\SpriteAtlasIssueReport\\SpriteAtlasPageIssue\\AtlasPageIssue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.tooling@127d960d4dc1\\Editor\\Insider\\SpriteAtlas\\SpriteAtlasIssueReport\\SpriteAtlasPageIssue\\AtlasPageIssue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\SceneChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SceneChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AtlasPageIssue.cs",
-              "DocumentMoniker": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Library\\PackageCache\\com.unity.2d.tooling@127d960d4dc1\\Editor\\Insider\\SpriteAtlas\\SpriteAtlasIssueReport\\SpriteAtlasPageIssue\\AtlasPageIssue.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.tooling@127d960d4dc1\\Editor\\Insider\\SpriteAtlas\\SpriteAtlasIssueReport\\SpriteAtlasPageIssue\\AtlasPageIssue.cs",
-              "ToolTip": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Library\\PackageCache\\com.unity.2d.tooling@127d960d4dc1\\Editor\\Insider\\SpriteAtlas\\SpriteAtlasIssueReport\\SpriteAtlasPageIssue\\AtlasPageIssue.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.2d.tooling@127d960d4dc1\\Editor\\Insider\\SpriteAtlas\\SpriteAtlasIssueReport\\SpriteAtlasPageIssue\\AtlasPageIssue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Title": "SceneChanger.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\SceneChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\SceneChanger.cs",
+              "ToolTip": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\SceneChanger.cs",
+              "RelativeToolTip": "Assets\\SceneChanger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T01:00:26.964Z",
+              "WhenOpened": "2026-06-28T09:37:57.075Z",
               "EditorCaption": ""
             }
           ]
