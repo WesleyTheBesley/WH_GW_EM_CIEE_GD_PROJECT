@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\KonamiCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\KonamiCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\KonamiCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\KonamiCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\AudioMix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AudioMix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "KonamiCode.cs",
-              "DocumentMoniker": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\KonamiCode.cs",
-              "RelativeDocumentMoniker": "Assets\\KonamiCode.cs",
-              "ToolTip": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\KonamiCode.cs",
-              "RelativeToolTip": "Assets\\KonamiCode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Title": "AudioMix.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\AudioMix.cs",
+              "RelativeDocumentMoniker": "Assets\\AudioMix.cs",
+              "ToolTip": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\AudioMix.cs",
+              "RelativeToolTip": "Assets\\AudioMix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T02:41:57.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KonamiCode.cs",
-              "DocumentMoniker": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\KonamiCode.cs",
-              "RelativeDocumentMoniker": "Assets\\KonamiCode.cs",
-              "ToolTip": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\KonamiCode.cs",
-              "RelativeToolTip": "Assets\\KonamiCode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T02:44:01.861Z",
+              "WhenOpened": "2026-07-01T01:16:05.738Z",
               "EditorCaption": ""
             }
           ]

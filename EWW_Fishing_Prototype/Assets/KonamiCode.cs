@@ -25,7 +25,7 @@ public class KonamiCodeManager : MonoBehaviour
         if (Keyboard.current == null) return;
 
         // Clean frame execution: Only proceed if ANY key was freshly pressed down
-        if (Keyboard.current.anyKey.wasPressedThisFrame)
+        if (Keyboard.current.anyKey.wasPressedThisFrame && SettingsManager.konamiEnabled) 
         {
             Key expectedKey = konamiCode[sequenceIndex];
 

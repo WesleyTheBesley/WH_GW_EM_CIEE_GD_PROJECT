@@ -1,0 +1,66 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "BuilderDocument",
+        "m_EditorClassIdentifier": "UnityEditor.UIBuilderModule:Unity.UI.Builder:BuilderDocument",
+        "m_SavedBuilderUxmlToThemeStyleSheetList": [],
+        "m_CurrentCanvasTheme": 4,
+        "m_CurrentCanvasThemeStyleSheetReference": {
+            "fileID": -4733365628477956816,
+            "guid": "df9aec944f4474a04847b6d6375e4138",
+            "type": 3
+        },
+        "m_CodePreviewVisible": true,
+        "m_OpenUXMLFiles": [
+            {
+                "m_OpenUSSFiles": [],
+                "m_OpenendVisualTreeAssetOldPath": "Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Ducko/MainUI.uxml",
+                "m_UxmlPreview": "<ui:UXML xmlns:ui=\"UnityEngine.UIElements\" xmlns:uie=\"UnityEditor.UIElements\" xsi=\"http://www.w3.org/2001/XMLSchema-instance\" engine=\"UnityEngine.UIElements\" editor=\"UnityEditor.UIElements\" noNamespaceSchemaLocation=\"../../../UIElementsSchema/UIElements.xsd\" editor-extension-mode=\"False\">\r\n    <ui:Template name=\"DialogWindow\" src=\"project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Ducko/DialogueWindow.uxml?fileID=9197481963319205126&amp;guid=db948237dfcb51b4d98e194099d6ee8c&amp;type=3#DialogueWindow\"/>\r\n    <ui:Template name=\"EndScreen\" src=\"project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Common/EndScreen.uxml?fileID=9197481963319205126&amp;guid=b73b060e8837d4590ae27120ab18b8ba&amp;type=3#EndScreen\"/>\r\n    <ui:Template name=\"RobotCounter\" src=\"project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Common/RobotCounter.uxml?fileID=9197481963319205126&amp;guid=f9938e8b2012a4aa081187560303389a&amp;type=3#RobotCounter\"/>\r\n    <ui:VisualElement name=\"HealthbarBackground\" style=\"background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/UI/UIHealthFrameDucko.png?fileID=21300000&amp;guid=918e7a741c040c140a699a450f3d6e2d&amp;type=3#UIHealthFrameDucko&quot;); height: 165px; -unity-background-scale-mode: scale-to-fit; width: 346px;\">\r\n        <ui:VisualElement name=\"HealthbarContainer\" style=\"flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 52px; width: 189px; position: absolute; top: 52px; left: 144px;\">\r\n            <ui:VisualElement name=\"Healthbar\" style=\"flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/UI/UIHealthBarDucko.png?fileID=21300000&amp;guid=335e35d6c24ef5141b778902f9d19a3b&amp;type=3#UIHealthBarDucko&quot;); -unity-background-scale-mode: stretch-to-fill; height: 100%; width: 50%;\"/>\r\n        </ui:VisualElement>\r\n        <ui:VisualElement name=\"CharacterPortrait\" style=\"flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/Ducko/UI/CharacterPortraitDucko.png?fileID=21300000&amp;guid=f0485db37ba2b03449d2d7917160fcb1&amp;type=3#CharacterPortraitDucko&quot;); -unity-background-scale-mode: scale-to-fit; height: 135px; width: 129px; position: absolute; top: 12px; left: 6px;\"/>\r\n    </ui:VisualElement>\r\n    <ui:Instance template=\"DialogWindow\" name=\"NPCDialogue\" style=\"position: absolute; left: 10%; top: 70%; right: 10%; bottom: 0;\"/>\r\n    <ui:Instance template=\"RobotCounter\" name=\"RobotCounter\" style=\"width: 300px; height: 100px; top: 30px; right: 10px; position: absolute;\"/>\r\n    <ui:Button text=\"Return To Title Screen\" name=\"ReturnToMain\" style=\"position: absolute; top: 30px; left: 40%; right: 40%; font-size: 18px; -unity-font-style: bold; background-color: rgb(125, 209, 222); border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;\"/>\r\n    <ui:Instance template=\"EndScreen\" name=\"EndScreen\" picking-mode=\"Ignore\" style=\"position: absolute; width: 100%; height: 100%;\"/>\r\n</ui:UXML>\r\n",
+                "m_ContentHash": -636435294,
+                "m_VisualTreeAssetRef": {
+                    "fileID": 9197481963319205126,
+                    "guid": "beb28639fb7794449a5d478deb002a15",
+                    "type": 3
+                },
+                "m_TemplateAssetId": 0,
+                "m_TemplateAssetIndex": -1,
+                "m_ActiveStyleSheet": {
+                    "instanceID": 0
+                },
+                "m_Settings": {
+                    "UxmlGuid": "beb28639fb7794449a5d478deb002a15",
+                    "UxmlPath": "Assets/_2DAdventureGame/Tutorial_Demo/Demo_UI/Ducko/MainUI.uxml",
+                    "CanvasX": 0,
+                    "CanvasY": 0,
+                    "CanvasWidth": 350,
+                    "CanvasHeight": 450,
+                    "MatchGameView": false,
+                    "ZoomScale": 1.0,
+                    "PanOffset": {
+                        "x": 20.0,
+                        "y": 20.0
+                    },
+                    "ColorModeBackgroundOpacity": 1.0,
+                    "ImageModeCanvasBackgroundOpacity": 1.0,
+                    "CameraModeCanvasBackgroundOpacity": 1.0,
+                    "EnableCanvasBackground": false,
+                    "CanvasBackgroundMode": 0,
+                    "CanvasBackgroundColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "CanvasBackgroundImage": {
+                        "instanceID": 0
+                    },
+                    "CanvasBackgroundImageScaleMode": 1,
+                    "CanvasBackgroundCameraName": ""
+                },
+                "m_OpenSubDocumentParentIndex": -1
+            }
+        ],
+        "m_ActiveOpenUXMLFileIndex": 0
+    }
+}

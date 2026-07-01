@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\MenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\AudioMix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AudioMix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\MenuController.cs",
-              "RelativeDocumentMoniker": "Assets\\MenuController.cs",
-              "ToolTip": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\MenuController.cs",
-              "RelativeToolTip": "Assets\\MenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "AudioMix.cs",
+              "DocumentMoniker": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\AudioMix.cs",
+              "RelativeDocumentMoniker": "Assets\\AudioMix.cs",
+              "ToolTip": "C:\\Users\\wesle\\Documents\\WH_GW_EM_CIEE_GD_PROJECT\\EWW_Fishing_Prototype\\Assets\\AudioMix.cs",
+              "RelativeToolTip": "Assets\\AudioMix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T07:25:58.959Z",
+              "WhenOpened": "2026-07-01T01:20:27.435Z",
               "EditorCaption": ""
             }
           ]
