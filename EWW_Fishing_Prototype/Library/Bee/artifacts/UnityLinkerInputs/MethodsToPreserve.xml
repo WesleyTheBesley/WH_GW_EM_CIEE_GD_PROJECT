@@ -1,5 +1,8 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AudioSettings">
+			<method name="SetVolume"/>
+		</type>
 		<type fullname="MenuController">
 			<method name="ExitGame"/>
 		</type>
@@ -10,6 +13,9 @@
 			<method name="LoadSceneByIndex"/>
 			<method name="LoadSceneByIndex"/>
 			<method name="LoadSceneByIndex"/>
+		</type>
+		<type fullname="SettingsManager">
+			<method name="ToggleKonami"/>
 		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">

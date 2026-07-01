@@ -1,10 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioSettings
     - AutoSlideshow
     - Beginner2D.CameraConfinerLayerSetter
     - Beginner2D.DamageZone
-    - Beginner2D.Enemy
     - Beginner2D.GameManager
     - Beginner2D.HealthCollectible
     - Beginner2D.NonPlayerCharacter
@@ -14,10 +14,11 @@ ScriptsOnlyBuild:
     - KonamiCodeManager
     - MenuController
     - SceneChanger
+    - SettingsManager
+    - TMPClickableLinks
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.DeformationManager
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
@@ -147,6 +148,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
   serializedClasses:
     Unity.Cinemachine:
     - Unity.Cinemachine.CameraTarget
@@ -279,6 +281,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
     - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
     UnityEngine.UIElementsModule:
@@ -360,6 +363,12 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: ToggleKonami
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioSettings
+    methodName: SetVolume
+  - assembly: Assembly-CSharp
     fullTypeName: SceneChanger
     methodName: LoadSceneByIndex
   - assembly: Assembly-CSharp
@@ -410,8 +419,6 @@ ScriptsOnlyBuild:
       Script: {fileID: 11500000, guid: 7ae1957f167935441bc7a04f409471e2, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: f4e6a07322502ea4fb252fe89272842a, type: 3}
-    - Class: 114
-      Script: {fileID: 11500000, guid: c355cf67d54abee4aae3b97fd7e93987, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: cf06cd9aea3cb4e6197606e1599e6d48, type: 3}
     - Class: 114
@@ -471,6 +478,12 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -543,6 +556,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
     Assets/Scenes/credits.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -565,6 +584,12 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {fileID: 11500000, guid: c5d88e2a4a8a9e4418a1b2707690eed3, type: 3}
     - Class: 114
+      Script: {fileID: 11500000, guid: ea39d61fd96031349968ccd5131d9cf1, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+    - Class: 114
       Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: 39fa3d8997a24136984ca6e2c99902bc, type: 3}
@@ -583,6 +608,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -615,10 +642,20 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {fileID: 11500000, guid: 7d9872eb69ab050489dcbec2609076fb, type: 3}
+    - Class: 114
       Script: {fileID: 11500000, guid: c5d88e2a4a8a9e4418a1b2707690eed3, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: a9df7ed1c1a96454196c08311698f017, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
     - Class: 114
@@ -637,7 +674,11 @@ ScriptsOnlyBuild:
       Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
     - Class: 114
       Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -652,6 +693,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/title.unity:
     - Class: 1
@@ -1749,6 +1796,12 @@ ScriptsOnlyBuild:
     className: CinemachineFixedSignal
   - hash:
       serializedVersion: 2
+      Hash: 1cd0808be786ab901c5f4a18339b82db
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioSettings
+  - hash:
+      serializedVersion: 2
       Hash: 113e54f67456d0e7754c0598ee2a6dd4
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
@@ -1813,6 +1866,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerObject
+  - hash:
+      serializedVersion: 2
+      Hash: 4dc8c01964f87d19b3bd3664f7abfaa5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TMPClickableLinks
   - hash:
       serializedVersion: 2
       Hash: 5c2a5af4658ede896d072a8a641d706e
@@ -2221,6 +2280,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Cinemachine
     namespaceName: Unity.Cinemachine
     className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: e8e5776d4d5f8e94b4deaf56ec3869a3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SettingsManager
   - hash:
       serializedVersion: 2
       Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
@@ -2835,6 +2900,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 26e29ad6b217261f68bac7da335dc379
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuController
+  - hash:
+      serializedVersion: 2
       Hash: 191cd500c627cd6682ef6f70b8e47f2c
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -3181,12 +3252,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Splines
     namespaceName: UnityEngine.Splines
     className: SplineExtrude
-  - hash:
-      serializedVersion: 2
-      Hash: 26e29ad6b217261f68bac7da335dc379
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MenuController
   platform: 19
   scenePathNames:
   - Assets/Scenes/title.unity
@@ -3194,4 +3259,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/settings.unity
   - Assets/Scenes/credits.unity
   - Assets/Scenes/SHITPOSTROOM.unity
-  playerPath: C:/Users/wesle/Unity Game/EWW_Fishing_Prototype.exe
+  playerPath: C:/Users/wesle/Documents/deluge title beta/Deluge.exe
