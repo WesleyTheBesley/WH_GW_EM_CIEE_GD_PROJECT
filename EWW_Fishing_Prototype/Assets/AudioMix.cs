@@ -25,7 +25,7 @@ public class AudioSettings : MonoBehaviour
         }
         else
         {
-            audioMixer.SetFloat("MasterVolume", (volume - 1f) * 20f);
+            audioMixer.SetFloat("MasterVolume", (volume - 1f) * 50f);
             volumeLabel.text = "Volume (This is a bad idea.)";
         }
 

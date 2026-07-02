@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.DeformationManager
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
@@ -3259,4 +3260,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/settings.unity
   - Assets/Scenes/credits.unity
   - Assets/Scenes/SHITPOSTROOM.unity
-  playerPath: C:/Users/wesle/Documents/deluge title beta/Deluge.exe
+  playerPath: C:/Users/wesle/Documents/DELUGE v_0.0.1/Deluge.exe
